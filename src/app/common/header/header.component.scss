@@ -1,0 +1,10 @@
+@import '~src/styles/colors.scss';
+
+$app-header-height: 100px;
+$app-header-background-color: $brand-primary;
+
+.app-header-container {
+    width: 100%;
+    height: $app-header-height;
+    color: $app-header-background-color;
+}
