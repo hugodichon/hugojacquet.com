@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomepageModule } from './pages/homepage';
 import { AppCommonModule } from './common/app-common.module';
 
 @NgModule({
@@ -14,7 +13,6 @@ import { AppCommonModule } from './common/app-common.module';
     BrowserModule,
     AppRoutingModule,
     AppCommonModule,
-    HomepageModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
