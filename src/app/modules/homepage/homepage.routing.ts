@@ -5,11 +5,7 @@ export const HomepageRoutes: Routes = [
     {
         path: '',
         pathMatch: 'full',
-        redirectTo: 'feature-one-component'
-    },
-    {
-        path: 'feature-one-component',
         component: HomepageComponent,
         // canActivate: [HomepageComponentCanActivateGuard]
-    }
+    },
 ];
